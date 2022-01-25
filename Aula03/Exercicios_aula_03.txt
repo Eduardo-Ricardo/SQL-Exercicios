@@ -1,0 +1,76 @@
+Exercicios_aula_03
+
+Crie as tabelas a seguir
++---+-----------+------+-----+-----+-----------+----------+
+|ID |Nome(*)    |Idade |Sexo |Peso |Bairro     |Celular(*)|
++---+-----------+------+-----+-----+-----------+----------+
+|1  |Marcelo    |52    |M    |90   |Novo Mundo |99111-1111|
++---+-----------+------+-----+-----+-----------+----------+
+|2  |João Pedro |21    |M    |77,5 |Água Verde |99222-2222|
++---+-----------+------+-----+-----+-----------+----------+
+|3  |Angélica   |29    |F    |68   |Rebouças   |99333-3333|
++---+-----------+------+-----+-----+-----------+----------+
+
++---+----------------+-----------+---------+--------------------------------------------------+----------+
+|ID |NOME(*)         |ESTOQUE(*) |PRECO(*) |FUNCIONARIO(*)                                    |OBSERVACAO|
++---+----------------+-----------+---------+--------------------------------------------------+----------+
+|1  |Sabão em pó     |100        |9        |Alcir Jr.                                         |          |
++---+----------------+-----------+---------+--------------------------------------------------+----------+
+|2  |Sabão em barra  |277        |4,5      |Maria Rita Amorim Algumas barras estão avariadas. |          |
++---+----------------+-----------+---------+--------------------------------------------------+----------+
+|3  |Vanish em pó 1Kg|70         |45       |Alcir Jr.                                         |          |
++---+----------------+-----------+---------+--------------------------------------------------+----------+
+
+TABLE CLIENTES
+
+ID		INT-UNSIGNED-AUTO_INCREMENT
+									
+Nome(*)		VARCHAR-(40)-NOT NULL
+						
+Idade(*)	TINYINT-UNSIGNED-NOT NULL	
+									
+Sexo		ENUM-'M', 'F'
+						
+Peso		FLOAT-(6,3)
+				
+Bairro		VARCHAR-(25)	
+						
+Celular(*)	CHAR-(15)-NOT NULL	(__)_ ____-____		
+
+
+
+
+TABLE PRODUTOS 
+
+ID		INT UNSIGNED AUTO_INCREMENT 
+
+NOME(*) 	VARCHAR(25) NOT NULL
+
+ESTOQUE(*) 	SMALLINT NOT NULL
+
+PRECO(*) 	FLOAT(6,2) NOT NULL
+
+FUNCIONARIO(*)	VARCHAR(40) NOT NULL 
+
+OBSERVACAO	VARCHAR(80)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
